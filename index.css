@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+}
+
+/* Thanks, https://www.w3schools.com/howto/howto_css_two_columns.asp */
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 30%;
+  padding: 10px;
+}
+
+.column3 {
+  float: left;
+  width: 70%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body {
+  background: #0047AB;
+  color: #fff;
+  padding: 30px;
+}
+
+main {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  word-spacing: 0.25em;
+  line-height: 1.4;
+}
+
+header {
+  font-size: 30px;
+  letter-spacing: 4px;
+  line-height: 1.4;
+  width: 850px;
+}
+
+.header {
+  display: inline-block;
+}
+
+h2 {
+  width: 150px;
+}
+
+h2 a {
+  line-height: 1.25;
+  color: white;
+}
+
+h2 a:hover {
+  color: rgb(0, 0, 0);  
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.4;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 17px;
+  letter-spacing: 4px;
+  text-align: center;
+  display: block;
+  background-color: white;
+  padding: 15px;
+}
+
+footer a:hover {
+  color: black;
+}
+
+ul {
+  text-align: left;
+  margin: 30px;
+}
+
+search {
+  font-size: 17px;
+  text-align: center;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+img {
+  max-width: 810px;
+}
